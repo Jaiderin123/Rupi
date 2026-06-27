@@ -1,0 +1,22 @@
+# ==============================================
+# Rupi - Monorepo Global Gitignore
+# ==============================================
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Environment variables (contain secrets)
+.env
+*.env.local
+
+# Root-level dependencies (if using Node scripts, etc.)
+node_modules/
